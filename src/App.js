@@ -1,13 +1,12 @@
+import Products from "./Products/Product";
+import Navigation from "./Navigation/Nav";
 
 function App() {
   return (
-    <div>
-      <header>
-        <a>
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Products></Products>
+      <Navigation></Navigation>
+    </>
   );
 }
 

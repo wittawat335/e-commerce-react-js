@@ -1,7 +1,12 @@
 import React from 'react'
+import "./Product.css"
 
-export default function Product() {
+const Product = ({ result }) => {
     return (
-        <div>Product</div>
+        <>
+            <section className="card-container">{result}</section>
+        </>
     )
 }
+
+export default Product;
